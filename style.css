@@ -1,0 +1,26 @@
+/*
+  Theme Name: Thema van Rick
+  Text Domain: ThemaRick
+  Theme URI: https://www.andersnoren.se/teman/hitchcock-wordpress-theme/
+  Version: 1.0
+  Description: Opdracht voor het Media College
+  Tags: blog, stijl, opdracht
+  Author: Rick Vellinga
+  Author URI: https://www.andersnoren.se
+  License: GNU General Public License version 2.0
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  All files, unless otherwise stated, are released under the GNU General Public License
+  version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+body{
+  font-family: sans-serif;
+  background: lightblue;
+}
+
+.validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
