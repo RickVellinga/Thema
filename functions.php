@@ -14,9 +14,9 @@ add_action('init', 'laadstijlbladenScripts');
 
 function registreer_menu()  {
     $argumenten = array(
-        'hoofd-menu' => __( 'Hoofd menu ')
+        'hoofd-menu' => __('Hoofd menu')
     );
-    register_nav_menus();
+    register_nav_menus($argumenten);
 }
 add_action('init', 'registreer_menu');
 
@@ -26,4 +26,4 @@ add_action('init', 'registreer_menu');
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
-add_action( 'init', 'register_navwalker' );
+add_action( 'init', 'register_navwalker');
